@@ -2,9 +2,11 @@ import React from "react";
 import "./HomePage.css";
 import VideoCard from "../components/VideoCard";
 import SideBar from "../components/SideBar";
+import NavBar from "../components/NavBar";
 
 function HomePage() {
-  return (
+  return (<>
+  <NavBar/>
     <div className="main-flex-container">
       <div className="page">
         <div className="sidebar">
@@ -37,6 +39,7 @@ function HomePage() {
         </div>
       </div>
     </div>
+  </>
   );
 }
 
