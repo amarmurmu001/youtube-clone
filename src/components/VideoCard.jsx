@@ -6,7 +6,7 @@ function VideoCard() {
     <>
       <div className="video-container">
         {/* <img src="https://robohash.org/777" alt="" srcset="" /> */}
-        <img src="../src/assets/omni-man.webp" alt="" srcset="" />
+        <img src="../src/assets/omni-man.jpg" alt="" srcset="" />
         <div className="text-container">
           <div className="icon">
             <img src="https://robohash.org/777" alt="" srcset="" />
