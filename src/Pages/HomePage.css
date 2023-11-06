@@ -5,14 +5,12 @@
   height: 100vh;
   scroll-behavior: smooth;
 }
-
-
 .page {
   display: flex;
   height: 100%;
 }
 .sidebar {
-  width: 30%;
+  width: 20%;
   height: 100%;
   padding: 20px;
 }

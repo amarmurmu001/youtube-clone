@@ -13,7 +13,7 @@ function VideoCard() {
           <div className="text-content">
             <div className="title">This is the title of the video</div>
             <div className="channel-name">Channel Name</div>
-            <div className="channel-name">200k 2 month ago</div>
+            <div className="channel-name">200k  2 month ago</div>
           </div>
         </div>
       </div>
