@@ -1,21 +1,30 @@
 import React from "react";
 import "./VideoPage.css";
-
+import SuggCard from "../components/SuggCard";
+import NavBar from "../components/NavBar";
 function VideoPage() {
-  return (
-    <div className="videoPage">
+  return (<>
+    
+      <NavBar/>
+    <div className="videopage">
       <div className="videoItem">
         <iframe
-          src="https://www.youtube.com/watch?v=7NtDL5Lttt4"
-          width="560px"
-          height="315px"
+          src="https://youtu.be/7NtDL5Lttt4"
+          width="100%"
+          height="75%"
           frameborder="0"
           allowFullScreen
-          allow="auto-play"
-
+          allow="autoplay"
         ></iframe>
       </div>
+      <div className="sideBar">
+        <SuggCard />
+        <SuggCard />
+        <SuggCard />
+        <SuggCard />
+      </div>
     </div>
+  </>
   );
 }
 
