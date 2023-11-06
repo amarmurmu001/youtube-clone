@@ -4,7 +4,7 @@ import "./NavBar.css"
 function NavBar() {
   return (
     <div className="navbar">
-    <div className="logo">Youtube</div>
+    <div className="logo">YouTube</div>
     <div className="searchBar">
       <input type="search" name="search" id="search" placeholder="Search" />
       <button id="searchBtn" type="submit">Search</button>

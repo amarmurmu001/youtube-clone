@@ -35,6 +35,7 @@ function HomePage() {
           <VideoCard />
           <VideoCard />
           <VideoCard />
+          <VideoCard />
         </div>
         </div>
       </div>

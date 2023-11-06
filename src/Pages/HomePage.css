@@ -12,7 +12,7 @@
 .sidebar {
   width: 20%;
   height: 100%;
-  padding: 20px;
+  padding: 0 20px;
 }
 .main-conatiner{
     width: 80%;
