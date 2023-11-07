@@ -5,7 +5,7 @@ function VideoCard() {
   return (
     <>
       <div className="video-container">
-        <img src="https://i.ytimg.com/vi/gHrS5X4nKbU/hq720.jpg" alt="" srcset="" />
+        <img src="https://i.ytimg.com/vi/Pm-wNmS9RGI/hq720.jpg" alt="" srcset="" />
         <div className="text-container">
           <div className="icon">
             <img src="https://robohash.org/777" alt="" srcset="" />

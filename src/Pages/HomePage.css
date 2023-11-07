@@ -9,6 +9,11 @@
   display: flex;
   height: 100%;
 }
+.topics{
+  display: flex;
+  overflow: hidden;
+  
+}
 .sidebar {
   width: 20%;
   height: 100%;
@@ -27,5 +32,8 @@
 }
 
 body::-webkit-scrollbar {
+    display: none;
+  }
+.topics ::-webkit-scrollbar {
     display: none;
   }

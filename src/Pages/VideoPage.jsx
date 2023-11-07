@@ -10,8 +10,8 @@ function VideoPage() {
         <div className="videoItem">
           <iframe
             src="https://www.youtube.com/embed/7NtDL5Lttt4"
-            width="100%"
-            height="75%"
+            width="90%"
+            height="80%"
             allowFullScreen
             allow="autoplay"
           ></iframe>
