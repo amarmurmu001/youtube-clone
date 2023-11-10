@@ -2,6 +2,7 @@ import React from "react";
 import "./VideoPage.css";
 import SuggCard from "../components/SuggCard";
 import NavBar from "../components/NavBar";
+import Discription from "../components/Discription";
 function VideoPage() {
   return (
     <>
@@ -15,6 +16,7 @@ function VideoPage() {
             allowFullScreen
             allow="autoplay"
           ></iframe>
+          <Discription/>
         </div>
         <div className="sideBar">
           <SuggCard />
