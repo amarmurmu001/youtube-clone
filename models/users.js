@@ -19,4 +19,8 @@ const userSchema = new mongoose.Schema({
         minlength:8,
         manlength:1024,
     },
-})
+});
+
+const Users= mongoose.model("Users",userSchema);
+
+module.exports.Users = Users;
